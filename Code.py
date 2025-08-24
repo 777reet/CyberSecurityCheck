@@ -794,4 +794,7 @@ if __name__ == "__main__":
 
     # High-performance scanning demonstration
     python code.py -t scanme.nmap.org -p 1-5000 --threads 200 --timeout 2 -v
+
+
+    python code.py -t scanme.nmap.org --top-ports --html professional_demo.html
 '''
