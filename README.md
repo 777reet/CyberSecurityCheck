@@ -47,7 +47,8 @@ Executive-level security summaries
 
 ## Output : 
 
-![WhatsApp Image 2025-08-25 at 00 33 23_a3c6f343](https://github.com/user-attachments/assets/10ccb9ef-9912-4e14-a074-82293f2c78b0)
+<img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/b7917b0c-4cce-4f26-b54b-8cc504045f53" />
+
 
 
 Important Notes
