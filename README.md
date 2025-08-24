@@ -1,4 +1,4 @@
- # 🛡 Network Vulnerability Scanner
+## 🛡 Network Vulnerability Scanner
 
 Professional network vulnerability scanner that performs automated security assessments and generates comprehensive risk reports.
 
