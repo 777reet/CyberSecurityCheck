@@ -1,9 +1,9 @@
 {
   "scan_metadata": {
-    "timestamp": "2025-08-25T00:29:25.925253",
+    "timestamp": "2025-08-25T00:53:13.016604",
     "total_hosts": 1,
     "total_ports": 2,
-    "scan_duration": 3.04
+    "scan_duration": 3.01
   },
   "risk_assessment": {
     "overall_risk": "Low",
