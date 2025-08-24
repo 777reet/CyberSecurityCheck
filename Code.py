@@ -766,4 +766,67 @@ py code.py -t 127.0.0.1 -p 135,139,445,1433,3389,5985 -v
 # Web development ports
 py code.py -t 127.0.0.1 -p 3000,8000,8080,8443,9000 --html webdev_scan.html
 
-py code.py -t 127.0.0.1 --top-ports -o results.json  '''
+py code.py -t 127.0.0.1 --top-ports -o results.json  
+
+# Quick scan of common ports
+python code.py -t scanme.nmap.org --top-ports --html report.html
+
+# Comprehensive network assessment
+python code.py -t 192.168.1.0/24 -p 1-1000 --html network_assessment.html
+
+# Single host detailed scan
+python code.py -t 192.168.1.1 -p 1-65535 -o results.json --csv data.csv
+📖 Detailed Usage
+Command Line Options
+bashusage: code.py [-h] -t TARGET [-p PORTS] [--top-ports] [--threads THREADS]
+               [--timeout TIMEOUT] [-o OUTPUT] [--csv CSV] [--html HTML]
+               [-v] [--no-banner]
+
+Network Vulnerability Scanner & Risk Assessment Tool
+
+required arguments:
+  -t, --target TARGET    Target IP address or network range (e.g., 192.168.1.1 or 192.168.1.0/24)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p, --ports PORTS     Port range to scan (e.g., 1-1000, 22,80,443, 1-65535)
+  --top-ports           Scan only the most common ports
+  --threads THREADS     Number of threads to use (default: 100)
+  --timeout TIMEOUT     Connection timeout in seconds (default: 3)
+  -o, --output OUTPUT   Output file for JSON export
+  --csv CSV             Export results to CSV file
+  --html HTML           Generate HTML report
+  -v, --verbose         Enable verbose output
+  --no-banner           Disable banner display
+Examples
+Basic Scans
+bash# Scan single host, common ports
+python code.py -t 192.168.1.1 --top-ports
+
+# Scan specific ports
+python code.py -t scanme.nmap.org -p 22,80,443,8080
+
+# Scan port range with timeout adjustment
+python code.py -t 10.0.0.1 -p 1-1000 --timeout 5
+Network Range Scanning
+bash# Scan entire subnet
+python code.py -t 192.168.1.0/24 --top-ports
+
+# Large network with custom threading
+python code.py -t 10.0.0.0/16 -p 80,443 --threads 200
+Professional Reporting
+bash# Generate comprehensive security assessment
+python code.py -t 192.168.1.1 -p 1-1000 \
+  --html security_assessment.html \
+  -o scan_data.json \
+  --csv port_inventory.csv
+
+# Executive-level network security report
+python code.py -t 192.168.1.0/24 --top-ports \
+  --html executive_security_report.html
+Vulnerability Assessment
+bash# Focus on SSL/TLS security
+python code.py -t example.com -p 443,993,995 --html ssl_assessment.html
+
+# Database security scan
+python code.py -t db-server.local -p 1433,3306,5432,27017 --verbose'''
