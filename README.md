@@ -49,7 +49,8 @@ Executive-level security summaries
 
 <img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/b7917b0c-4cce-4f26-b54b-8cc504045f53" />
 
+<img width="1911" height="1026" alt="image" src="https://github.com/user-attachments/assets/2e7e7dfa-1ec4-41d7-b3f8-6b4068c39761" />
 
+<img width="1744" height="1012" alt="image" src="https://github.com/user-attachments/assets/53b8f90f-7e34-4618-b452-3f1473863a73" />
 
-Important Notes
-This tool is designed for authorized security testing only. Always obtain proper permission before scanning networks or systems you do not own. Users are responsible for compliance with all applicable laws and regulations.
+<img width="1917" height="1033" alt="image" src="https://github.com/user-attachments/assets/a94b0f02-15b0-4940-b235-0f30a25e6b24" />
